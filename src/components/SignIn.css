@@ -1,0 +1,62 @@
+#signin {
+  /* background-color: black; */
+  background-image: url("https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg");
+  height: 100vh;
+}
+
+#landingLogo {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  margin-top: 150px;
+  /* background-color: black; */
+  /* margin-left: 600px;
+  margin-right: 600px; */
+}
+
+#signinHeading {
+  color: white;
+}
+
+#signinEmail {
+  width: 200px;
+  padding: 10px;
+  /* background-color: rgba(156, 153, 153, 0.268); */
+}
+#signinpassword {
+  margin-top: 2px;
+  width: 200px;
+  padding: 10px;
+  /* background-color: rgba(156, 153, 153, 0.268); */
+}
+
+#signinBtn {
+  width: 220px;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+#signinBtn:hover {
+  background-color: rgba(255, 0, 0, 0.726);
+}
+
+#signinUp {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+  #signin {
+    background-color: black;
+    background-image: none;
+  }
+}

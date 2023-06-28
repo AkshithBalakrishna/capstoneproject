@@ -1,0 +1,63 @@
+#movieDetails {
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+#movieDetailsContainers {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  margin: 50px;
+  padding: 100px;
+}
+
+#movieDetailsImg {
+  height: 50vh;
+  width: 50vh;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 1px 2px 3px black;
+}
+
+#movieDetailsDivTwo {
+  margin-left: 20px;
+  width: 50%;
+  color: wheat;
+  margin-left: 30px;
+  text-align: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+#watchListBtn {
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#watchListBtn:hover {
+  background-color: rgba(255, 0, 0, 0.783);
+}
+
+@media only screen and (max-width: 900px) {
+  #movieDetailsImg {
+    height: 30vh;
+    width: 80%;
+  }
+  #movieDetailsContainers {
+    flex-direction: column;
+    margin: 20px;
+    padding: 50px;
+    text-align: center;
+  }
+
+  #movieDetailsDivTwo {
+    width: 100%;
+    color: wheat;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+}

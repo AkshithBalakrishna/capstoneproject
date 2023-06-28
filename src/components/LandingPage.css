@@ -1,0 +1,112 @@
+#landingHeader {
+  height: 100vh;
+  background-image: url("https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg");
+}
+
+#landingNavbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 80px;
+}
+
+#landingLogo {
+  width: 10%;
+}
+
+#singinBtn {
+  background-color: red;
+  color: white;
+  width: 100px;
+  font-weight: 600;
+  border-radius: 220px;
+  padding: 10px;
+  margin-top: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+#singinBtn:hover {
+  background-color: rgba(255, 0, 0, 0.755);
+}
+
+#landingContent {
+  color: #ffffff;
+  height: 25%;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+#contentHeadingOne {
+  font-weight: 900;
+}
+
+#contentHeadingTwo {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+#contentParaOne {
+  font-weight: 300;
+  margin: 0;
+}
+#contentParaTwo {
+  font-weight: 300;
+  margin: 0;
+}
+
+#landingLogin {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#landingEmail {
+  width: 300px;
+  padding: 10px;
+}
+
+#landingBtn {
+  background-color: red;
+  color: white;
+  width: 150px;
+  padding: 10px;
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+}
+
+#landingBtn:hover {
+  background-color: rgba(255, 0, 0, 0.794);
+}
+
+#landingBtnSec {
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  #landingLogo {
+    width: 25%;
+  }
+
+  #landingContent {
+    font-size: 20px;
+    margin-top: 60px;
+  }
+
+  #landingLogin {
+    margin-top: 50px;
+    display: list-item;
+    text-align: center;
+  }
+  #landingEmail {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+
+  #landingBtn {
+    width: 180px;
+  }
+}
