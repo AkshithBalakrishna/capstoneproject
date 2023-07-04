@@ -2,7 +2,7 @@
 
 # Movie Review App
 
-Welcome to the Movie Review App! This application allows users to sign up, log in, browse movies, leave comments, and view feedback from other users. It also includes a search filter option to find movies by their name.
+Welcome to the Movie Details and Review App! This application allows users to sign up, log in, browse movies, leave comments, and view feedback from other users. It also includes a search filter option to find movies by their name.
 
 ## Technologies Used
 
